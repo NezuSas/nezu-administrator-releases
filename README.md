@@ -14,10 +14,22 @@ validates each icon digest before caching it locally.
 
 ### Publishing a new platform
 
-1. Add its icon in `assets/platforms/`.
-2. Add its name and relative icon path to `assets/catalog.json` and increment
-   `catalog_version`.
-3. Commit and push. The workflow signs the catalog automatically.
+From PowerShell, run this single command inside the repository:
+
+```powershell
+.\tools\add-platform.ps1
+```
+
+It asks for the platform name and the icon path, then calculates the SHA-256,
+increments `catalog_version`, copies the image, commits and pushes the change.
+GitHub Actions signs the catalog automatically. The repository must be clean
+before it runs, so unrelated files are never included in its commit.
+
+You can also supply both values directly:
+
+```powershell
+.\tools\add-platform.ps1 -Name "Discord" -IconPath "C:\Images\discord.png"
+```
 
 Before the first publication, add the existing `NEZU_RELEASE_PRIVATE_KEY_HEX`
 secret to this repository: **Settings → Secrets and variables → Actions**.
