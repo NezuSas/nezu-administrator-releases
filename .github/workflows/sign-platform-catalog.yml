@@ -13,7 +13,6 @@ permissions:
 
 jobs:
   sign:
-    if: github.actor != 'github-actions[bot]'
     env:
       NEZU_RELEASE_PRIVATE_KEY_HEX: ${{ secrets.NEZU_RELEASE_PRIVATE_KEY_HEX }}
     runs-on: ubuntu-latest
