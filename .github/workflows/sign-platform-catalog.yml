@@ -13,7 +13,9 @@ permissions:
 
 jobs:
   sign:
-    if: github.actor != 'github-actions[bot]' && secrets.NEZU_RELEASE_PRIVATE_KEY_HEX != ''
+    if: github.actor != 'github-actions[bot]'
+    env:
+      NEZU_RELEASE_PRIVATE_KEY_HEX: ${{ secrets.NEZU_RELEASE_PRIVATE_KEY_HEX }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -21,11 +23,15 @@ jobs:
         with:
           python-version: '3.10'
       - run: python -m pip install cryptography==42.0.8
+      - name: Explain signing setup
+        if: env.NEZU_RELEASE_PRIVATE_KEY_HEX == ''
+        run: echo 'Catalog not signed: configure NEZU_RELEASE_PRIVATE_KEY_HEX in repository secrets.'
       - name: Sign the catalog
-        env:
-          NEZU_RELEASE_PRIVATE_KEY_HEX: ${{ secrets.NEZU_RELEASE_PRIVATE_KEY_HEX }}
+        id: sign_catalog
+        if: env.NEZU_RELEASE_PRIVATE_KEY_HEX != ''
         run: python tools/sign_catalog.py --catalog assets/catalog.json --signature assets/catalog.json.sig
       - name: Commit detached signature
+        if: steps.sign_catalog.outcome == 'success'
         run: |
           if git diff --quiet -- assets/catalog.json.sig; then exit 0; fi
           git config user.name 'nezu-release-bot'
