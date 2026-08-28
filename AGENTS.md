@@ -6,6 +6,11 @@ Este repositorio distribuye releases verificables y el catálogo remoto de
 plataformas. Un cambio aquí puede llegar a todos los clientes: prioriza
 integridad, trazabilidad y compatibilidad.
 
+## Estándar global
+
+Este repositorio sigue [NEZU Engineering Standards](https://github.com/NezuSas/nezu-engineering-standards).
+Las reglas de esta guía prevalecen cuando sean más específicas para releases y firma.
+
 ## Roles de trabajo
 
 ### Catálogo de plataformas
