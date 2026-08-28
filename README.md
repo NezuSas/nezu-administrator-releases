@@ -31,6 +31,11 @@ You can also supply both values directly:
 .\tools\add-platform.ps1 -Name "Discord" -IconPath "C:\Images\discord.png"
 ```
 
+For example, to publish Banco Guayaquil from a downloaded logo:
+
+```powershell
+.\tools\add-platform.ps1 -Name "Banco Guayaquil" -IconPath "C:\Users\ocuen\Downloads\bancoguayaquil.png"
+```
 Before the first publication, add the existing `NEZU_RELEASE_PRIVATE_KEY_HEX`
 secret to this repository: **Settings → Secrets and variables → Actions**.
 The key never belongs in a file or commit.
