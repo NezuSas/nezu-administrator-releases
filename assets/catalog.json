@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": "1.0.0",
+  "catalog_version": "1.0.1",
   "platforms": [
     {
       "name": "Alexa",
@@ -126,6 +126,11 @@
       "name": "Weblate",
       "icon": "platforms/weblate.png",
       "sha256": "4ada092b848a7c3536a1424c47de8731125ea16f89ff958d355767e1eaccf229"
+    },
+    {
+      "name": "Banco Guayaquil",
+      "icon": "platforms/banco-guayaquil.png",
+      "sha256": "3196753766f58113a15ba4b8d6b6e91abc381e2d9dc77846dba5a46954244ffc"
     }
   ]
 }
