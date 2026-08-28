@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": "1.0.1",
+  "catalog_version": "1.0.5",
   "platforms": [
     {
       "name": "Alexa",
@@ -131,6 +131,26 @@
       "name": "Banco Guayaquil",
       "icon": "platforms/banco-guayaquil.png",
       "sha256": "3196753766f58113a15ba4b8d6b6e91abc381e2d9dc77846dba5a46954244ffc"
+    },
+    {
+      "name": "Hik-Partner Pro",
+      "icon": "platforms/hik-partner-pro.png",
+      "sha256": "34531d6df5e5f36ed6a35204a8ed0e04970fa04436a462429e8ca6c2a8e710c6"
+    },
+    {
+      "name": "Omada Cloud",
+      "icon": "platforms/omada-cloud.png",
+      "sha256": "e6ebda16400acb7ad709b62eaef629105dd444c40d842a78ff5bb077e65db56d"
+    },
+    {
+      "name": "VIGI",
+      "icon": "platforms/vigi.png",
+      "sha256": "da1386a8430e33a04385ba176b9526347b956dab93830a92841a47709e9649c0"
+    },
+    {
+      "name": "SONOFF",
+      "icon": "platforms/sonoff.png",
+      "sha256": "84ed286859e3e57e0ff59cf526b4eef752e6808005cc19ba3a950f62ac4c520a"
     }
   ]
 }
