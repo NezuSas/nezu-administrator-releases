@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "catalog_version": "1.0.0",
+  "platforms": [
+    {
+      "name": "Alexa",
+      "icon": "platforms/alexa.png",
+      "sha256": "f978d757c9648932b0c301c347fb449235025e7362dff1edf6b27a9e766cecb0"
+    },
+    {
+      "name": "AWS",
+      "icon": "platforms/aws.png",
+      "sha256": "c6f18a7ea35ee8dcd6a4e6616687cc6dfa5bc275606d5846824a164c359b7405"
+    },
+    {
+      "name": "Banco del Pacifico",
+      "icon": "platforms/bancopacifico.webp",
+      "sha256": "6b2fba8a39db97a0f7e9cfa3c188fcd3c6885548368292c72ee8e5cc2c9d3b33"
+    },
+    {
+      "name": "Banco de Machala",
+      "icon": "platforms/bancomachala.png",
+      "sha256": "67b93a2ede55f547aef4dfecfa175a1947dce412701f483a0661a2bbe2ac0755"
+    },
+    {
+      "name": "Brevo",
+      "icon": "platforms/brevo.png",
+      "sha256": "fd74ed83e545a756e56ebf22d1c89bf59225f93bba8f24ed63db3e9e5d829d61"
+    },
+    {
+      "name": "CentroSur",
+      "icon": "platforms/centrosur.png",
+      "sha256": "9de196d477ff6a1bb0502b9b34ec367798b4b58bdccd2bc9011ba9778aa0543a"
+    },
+    {
+      "name": "Cloudflared",
+      "icon": "platforms/cloudflared.png",
+      "sha256": "8f2b4022d67811025fec71b40f363e2b3b8287df3714d8e9eeca00a5aa5e0490"
+    },
+    {
+      "name": "Dinners Club",
+      "icon": "platforms/dinners.webp",
+      "sha256": "0e4a0edee65e0aeb839b741d8fbbb6f26800f34db3598a57d9d30bd43c81ace0"
+    },
+    {
+      "name": "DockerHub",
+      "icon": "platforms/dockerhub.png",
+      "sha256": "b661e7be65d9137476d3029b8d73fc9e54c809333e7644a331b637e9f9382eea"
+    },
+    {
+      "name": "Etapa",
+      "icon": "platforms/etapa.jpg",
+      "sha256": "9633f5abf9c2d7e891afefc76d5f7d0f49f7c1dc0839e9c84a2ecec50e43f1f8"
+    },
+    {
+      "name": "GitHub",
+      "icon": "platforms/gitHub.png",
+      "sha256": "0452d4b1de8656d8ae7724b9339246b512ddbceff91b99a3615a74e735bbc7aa"
+    },
+    {
+      "name": "GitLab",
+      "icon": "platforms/gitlab.png",
+      "sha256": "e9e46ff013d9a8c647ffdddf268cc48255581270a45c70095419452e3e45b42c"
+    },
+    {
+      "name": "Gmail",
+      "icon": "platforms/gmail.png",
+      "sha256": "6497f8773793e092f2f92277c14b382fb66251e2a6a7e00aad0e65a152459790"
+    },
+    {
+      "name": "HomeAssistant",
+      "icon": "platforms/homeassistant.png",
+      "sha256": "6582fff08db75b5fb11d5133145a1c009d5fa1d6940789330a638f234e852cbe"
+    },
+    {
+      "name": "Instagram",
+      "icon": "platforms/instagram.png",
+      "sha256": "21f86b55f986848665ce54ab354ff6b43b7705e6c421d90c04369882b5956766"
+    },
+    {
+      "name": "Linux",
+      "icon": "platforms/linux.png",
+      "sha256": "a4364de0b4a345a1048b48390eb0acec9b6fe0621fa6a04c2ab1a745eb0bd931"
+    },
+    {
+      "name": "Mutualista Azuay",
+      "icon": "platforms/mutualistazuay.webp",
+      "sha256": "64609d5e91b166af326faa7300ed7a2efc6c86ee70289a8e9e42fc43a4ef12a7"
+    },
+    {
+      "name": "Neon",
+      "icon": "platforms/neon.png",
+      "sha256": "1d54b33143613458664cd9a526374fedb7789de8fd91df86dc244c282997d3c1"
+    },
+    {
+      "name": "Render",
+      "icon": "platforms/render.png",
+      "sha256": "ac7824a09ae444e0176e85be9a069f26b6699db1247adb72b2b2ed8373faac76"
+    },
+    {
+      "name": "Storybook",
+      "icon": "platforms/storybook.png",
+      "sha256": "dd40e8453491c5373e09484f83d94a6e70c679ef650bec9d955a2b81e4768998"
+    },
+    {
+      "name": "Theo",
+      "icon": "platforms/theo.png",
+      "sha256": "cdf0bc8286086e79a7cc8ff421ff85cdb1343026ac6c58c96af4f9ff88180082"
+    },
+    {
+      "name": "TheoBabies",
+      "icon": "platforms/theo_babies.png",
+      "sha256": "5b98636757ed0ca6b065bb3c8f831e56125e7d72c99f3043d9ebe63a34fa0207"
+    },
+    {
+      "name": "Vercel",
+      "icon": "platforms/vercel.png",
+      "sha256": "7a94752b60482276a0b0cab22b986e3bcd9935f1f59f7c24e6725a4449381a1b"
+    },
+    {
+      "name": "Webflow",
+      "icon": "platforms/webflow.png",
+      "sha256": "656f94671f5c248414c1ed2d74531384e90f11deef1b77083402e5779f3b7040"
+    },
+    {
+      "name": "Weblate",
+      "icon": "platforms/weblate.png",
+      "sha256": "4ada092b848a7c3536a1424c47de8731125ea16f89ff958d355767e1eaccf229"
+    }
+  ]
+}
