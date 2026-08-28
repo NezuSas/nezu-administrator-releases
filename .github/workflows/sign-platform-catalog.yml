@@ -24,7 +24,7 @@ jobs:
       - run: python -m pip install cryptography==42.0.8
       - name: Explain signing setup
         if: env.NEZU_RELEASE_PRIVATE_KEY_HEX == ''
-        run: echo 'Catalog not signed: configure NEZU_RELEASE_PRIVATE_KEY_HEX in repository secrets.'
+        run: "echo 'Catalog not signed: configure NEZU_RELEASE_PRIVATE_KEY_HEX in repository secrets.'"
       - name: Sign the catalog
         id: sign_catalog
         if: env.NEZU_RELEASE_PRIVATE_KEY_HEX != ''
