@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": "1.0.5",
+  "catalog_version": "1.0.6",
   "platforms": [
     {
       "name": "Alexa",
@@ -75,7 +75,7 @@
     {
       "name": "Instagram",
       "icon": "platforms/instagram.png",
-      "sha256": "21f86b55f986848665ce54ab354ff6b43b7705e6c421d90c04369882b5956766"
+      "sha256": "37533f18b118df302913146f66a5b62dffcf58638c7b46851e6394183deb415f"
     },
     {
       "name": "Linux",
@@ -130,27 +130,27 @@
     {
       "name": "Banco Guayaquil",
       "icon": "platforms/banco-guayaquil.png",
-      "sha256": "3196753766f58113a15ba4b8d6b6e91abc381e2d9dc77846dba5a46954244ffc"
+      "sha256": "772324a0ba04dff5ed78f6fc88a3c4d0137a5a140d3b4714f1ade46b63b544ae"
     },
     {
       "name": "Hik-Partner Pro",
       "icon": "platforms/hik-partner-pro.png",
-      "sha256": "34531d6df5e5f36ed6a35204a8ed0e04970fa04436a462429e8ca6c2a8e710c6"
+      "sha256": "dd555c818069816bc4f71374a9992b6df550df6947ef373f7d3af6730dbbed96"
     },
     {
       "name": "Omada Cloud",
       "icon": "platforms/omada-cloud.png",
-      "sha256": "e6ebda16400acb7ad709b62eaef629105dd444c40d842a78ff5bb077e65db56d"
+      "sha256": "b409e57375d61376a373071925bd5cd80fa6f8490c401d1001ee7cbbd454c1e5"
     },
     {
       "name": "VIGI",
       "icon": "platforms/vigi.png",
-      "sha256": "da1386a8430e33a04385ba176b9526347b956dab93830a92841a47709e9649c0"
+      "sha256": "3c91bd177cf29279cff0ba9b8987824477a6a28c27458ff6124af23a1ed12b6d"
     },
     {
       "name": "SONOFF",
       "icon": "platforms/sonoff.png",
-      "sha256": "84ed286859e3e57e0ff59cf526b4eef752e6808005cc19ba3a950f62ac4c520a"
+      "sha256": "ec1fb153c64edb271f5e6a5725993303368511728311a288fb96b0a2ba6abeed"
     }
   ]
 }

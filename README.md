@@ -31,6 +31,21 @@ You can also supply both values directly:
 .\tools\add-platform.ps1 -Name "Discord" -IconPath "C:\Images\discord.png"
 ```
 
+### Replacing existing icons
+
+Use the Python helper to replace one or more existing icons in a single catalog
+revision. It validates every platform and source before writing, refreshes each
+SHA-256, and increments `catalog_version` only once:
+
+```powershell
+python .\tools\add_platform.py `
+  --replace "Banco Guayaquil=C:\Images\banco-guayaquil.png" `
+  --replace "VIGI=C:\Images\vigi.png"
+```
+
+Keep the existing file extension and record the official source in
+[`assets/SOURCES.md`](assets/SOURCES.md). Do not edit catalog digests manually.
+
 For example, to publish Banco Guayaquil from a downloaded logo:
 
 ```powershell
